@@ -48,5 +48,5 @@ Memindahkan data hasil cleaningg ke dalam data warehouse BigQuery:
 
 ---
 ### Visualisasi Looker Studio
-![alt text](images\image.png)
-![alt text](images\image-1.png)
+![alt text](images/image.png)
+![alt text](images/image-1.png)
