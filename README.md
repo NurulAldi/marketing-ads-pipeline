@@ -8,8 +8,7 @@ Tujuan proyek ini adalah membuat **satu pipeline data terpusat** yang:
 2. Melakukan **cleaning & standarisasi** (tanggal, mata uang, nama kolom).
 3. Menggabungkan seluruh data ke dalam satu tabel yang rapi dengan satuan **IDR**.
 4. Memuat data ke **database (BigQuery)**.
-5. Menyajikan hasil akhirnya di **Looker Studio** dalam bentuk visualisasi “Total Biaya Iklan per Platform”.
-
+5. Menyajikan hasil akhirnya di **Looker Studio** dalam bentuk visualisasi
 ---
 
 ### Alur Data (ETL Pipeline)
