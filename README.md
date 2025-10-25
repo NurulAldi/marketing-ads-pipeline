@@ -1,4 +1,4 @@
-# Marketing Pipeline
+# Marketing cost Pipeline
 
 ### Deskripsi
 Proyek ini adalah simulasi nyata dari tantangan interoperabilitas data dalam ekosistem martech (Marketing Technology). Fokusnya adalah melakukan normalisasi dan transformasi data dari tiga sumber utama (Facebook, Google, TikTok) yang masing-masing menghasilkan data CSV dengan skema, konvensi mata uang, dan format tanggal yang unik
