@@ -26,7 +26,7 @@ Setiap file memiliki format berbeda:
 | Google | `day`, `campaign_id`, `cost_idr`, `clicks` | Kolom tanggal beda nama |
 | TikTok | `tanggal`, `nama_iklan`, `biaya` | Format biaya "Rp 150.000" (harus dibersihkan) |
 
----
+
 
 ### **2. Transform**
 Proses pembersihan dan standarisasi menggunakan **Python (Pandas)**:
@@ -39,6 +39,8 @@ Proses pembersihan dan standarisasi menggunakan **Python (Pandas)**:
 - Facebook menggunakan impressions sebagai metric_1, Google menggunakan clicks sebagai metric_1, sedangkan tiktok belum memiliki metrik numerik, sehingga dibiarkan kosong (None) untuk saat ini
 - Semua Dataframe digabung menjadi satu tabel bersih
 
+
+
 ### **3. Load**
 Memindahkan data hasil cleaningg ke dalam data warehouse BigQuery:
 - Menyiapkan dataset dengan nama **marketing_data** dan tabel target bernama **ads_cleaned** di BigQuery
@@ -49,3 +51,5 @@ Memindahkan data hasil cleaningg ke dalam data warehouse BigQuery:
 ### Visualisasi Looker Studio
 ![alt text](images/image.png)
 ![alt text](images/image1.png)
+
+Link Looker studio: https://lookerstudio.google.com/reporting/485315fa-c7c3-48ff-aeac-557172b3c408
